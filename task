@@ -1,7 +1,7 @@
 In the army, each soldier has an assigned rank. A soldier of rank X has to report to (any) soldier of rank X + 1.
 Many soldiers can report to the same superior. Write a function:
   def solution( ranks)
-that, given an array ranks consisting of soldiers' ranks, retums the number of soldiers who can report to some superior.
+that, given an array ranks consisting of soldiers' ranks, returns the number of soldiers who can report to some superior.
 
 Examples:
 

@@ -6,11 +6,11 @@ def get_reporting_rank(ranks_soldiers)
   ranks_soldiers.sort!
   ranks_soldiers.each do |rank|
     upper = rank + 1
-   if ranks_soldiers.include?(upper)
-    if i != length
-     reporting_soldier = reporting_soldier + 1
-    end
+    if ranks_soldiers.include?(upper)
+      if i != length
+       reporting_soldier = reporting_soldier + 1
+     end
    end
-  end
-  reporting_soldier
+ end
+ reporting_soldier
 end

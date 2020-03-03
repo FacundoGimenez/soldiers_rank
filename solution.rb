@@ -12,5 +12,5 @@ def get_reporting_rank(ranks_soldiers)
 			end
 		end
 	end
-	reporting_soldier
+  reporting_soldier
 end
